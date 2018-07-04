@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myApp'>
+<head>
+
+  <title>LOGIN APP</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <p class="navbar-brand">Login_App</p>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="/register"><span class="glyphicon glyphicon-register"></span>Register</a></li>
+      <li><a href="/login"><span class="glyphicon glyphicon-log-in" ></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div  class=container ng-controller='AppCtrl'>
+<h1>WELCOME TO THE LOGIN APP</h1>
+<p>
+  CLICK ON THE BUTTONS TO LOGIN AND REGISTER
+</p>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<script src="controllers/controller.js"></script>
+
+</body>
+</html>
